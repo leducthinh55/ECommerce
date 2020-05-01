@@ -1,0 +1,5 @@
+C:\Users\thinh\Desktop\thinh\CN5\Testing\lab3\DateTimeChecker\DateTimeCheckerUtils\bin\Debug\DateTimeCheckerUtils.dll
+C:\Users\thinh\Desktop\thinh\CN5\Testing\lab3\DateTimeChecker\DateTimeCheckerUtils\bin\Debug\DateTimeCheckerUtils.pdb
+C:\Users\thinh\Desktop\thinh\CN5\Testing\lab3\DateTimeChecker\DateTimeCheckerUtils\obj\Debug\DateTimeCheckerUtils.csprojAssemblyReference.cache
+C:\Users\thinh\Desktop\thinh\CN5\Testing\lab3\DateTimeChecker\DateTimeCheckerUtils\obj\Debug\DateTimeCheckerUtils.dll
+C:\Users\thinh\Desktop\thinh\CN5\Testing\lab3\DateTimeChecker\DateTimeCheckerUtils\obj\Debug\DateTimeCheckerUtils.pdb

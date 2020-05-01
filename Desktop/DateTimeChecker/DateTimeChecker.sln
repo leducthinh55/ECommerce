@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeCheckerApp", "DateTimeCheckerApp\DateTimeCheckerApp.csproj", "{BB65E265-DA00-4412-B023-4CB062083254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeCheckerUtils", "DateTimeCheckerUtils\DateTimeCheckerUtils.csproj", "{B1BA59D0-2806-47EB-B349-21192360D6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeCheckerUnitTest", "DateTimeCheckerUnitTest\DateTimeCheckerUnitTest.csproj", "{BA7827E9-7B70-4B83-A417-ED74BF4DFFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB65E265-DA00-4412-B023-4CB062083254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB65E265-DA00-4412-B023-4CB062083254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB65E265-DA00-4412-B023-4CB062083254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB65E265-DA00-4412-B023-4CB062083254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BA59D0-2806-47EB-B349-21192360D6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BA59D0-2806-47EB-B349-21192360D6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BA59D0-2806-47EB-B349-21192360D6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BA59D0-2806-47EB-B349-21192360D6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7827E9-7B70-4B83-A417-ED74BF4DFFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7827E9-7B70-4B83-A417-ED74BF4DFFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7827E9-7B70-4B83-A417-ED74BF4DFFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7827E9-7B70-4B83-A417-ED74BF4DFFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {861C838F-57BE-480D-9C0B-E0D1920E3C02}
+	EndGlobalSection
+EndGlobal
