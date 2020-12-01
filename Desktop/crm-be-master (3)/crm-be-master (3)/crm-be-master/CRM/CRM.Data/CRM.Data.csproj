@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20181227034114_long27122018_workflowhistoryfile.cs" />
+    <Compile Remove="Migrations\20181231044313_long_31122018.cs" />
+    <Compile Remove="Migrations\20181231061347_long_31122019_2.cs" />
+    <Compile Remove="Migrations\20191105052633_add_contract_telecom.cs" />
+    <Compile Remove="Migrations\20191105052633_add_contract_telecom.Designer.cs" />
+    <Compile Remove="Migrations\20191105071546_add_telecom_service.cs" />
+    <Compile Remove="Migrations\20191105071546_add_telecom_service.Designer.cs" />
+    <Compile Remove="Migrations\20191116060550_format-contract-model-1.cs" />
+    <Compile Remove="Migrations\20191116060550_format-contract-model-1.Designer.cs" />
+    <Compile Remove="Migrations\20200225075213_co-contract.cs" />
+    <Compile Remove="Migrations\20200225075213_co-contract.Designer.cs" />
+    <Compile Remove="Migrations\20200225075916_co-contract.cs" />
+    <Compile Remove="Migrations\20200225075916_co-contract.Designer.cs" />
+    <Compile Remove="Migrations\20200715132724_update_dashboardChart.cs" />
+    <Compile Remove="Migrations\20200715132724_update_dashboardChart.Designer.cs" />
+    <Compile Remove="Migrations\20200716062900_update_dashBoardChart2.cs" />
+    <Compile Remove="Migrations\20200716062900_update_dashBoardChart2.Designer.cs" />
+    <Compile Remove="Migrations\20200716081633_update_DashboardChart3.cs" />
+    <Compile Remove="Migrations\20200716081633_update_DashboardChart3.Designer.cs" />
+    <Compile Remove="Migrations\20200716085532_update_DashboardChart3.cs" />
+    <Compile Remove="Migrations\20200716085532_update_DashboardChart3.Designer.cs" />
+    <Compile Remove="Migrations\20200716100814_addDashBoardChart3.cs" />
+    <Compile Remove="Migrations\20200716100814_addDashBoardChart3.Designer.cs" />
+    <Compile Remove="Migrations\20200716101441_update_3.cs" />
+    <Compile Remove="Migrations\20200716101441_update_3.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="2.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM.Model\CRM.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.identity.entityframeworkcore\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Identity.Stores">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.identity.stores\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
